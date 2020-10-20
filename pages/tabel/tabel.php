@@ -276,7 +276,7 @@ $result = mysqli_query($tkon, $tsql);
         <div class="float-right d-none d-sm-block">
             <b></b>
         </div>
-        <strong><a href="#">AWS</a>.</strong> 2020
+        <strong><a href="#">AWS</a>.</strong> Untuk Hari ini
     </footer>   
     <!-- ./wrapper -->
 

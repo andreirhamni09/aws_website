@@ -1,0 +1,33 @@
+<?php $conn = mysqli_connect("localhost", "srsssmsc_frkh", "wasd@@asdasd" , "srsssmsc_mp") or die (mysqli_error());
+
+$id = $_POST["id"];
+$user_id = $_POST["user_id"];
+$waktu_mulai = $_POST["waktu_mulai"];
+$waktu_selesai = $_POST["waktu_selesai"];
+$name = $_POST["name"];
+$lokasi_kerja = $_POST["lokasi_kerja"];
+$afdeling = $_POST["afdeling"];
+$blok = $_POST["blok"];
+$tahun_tanam = $_POST["tahun_tanam"];
+$luas = $_POST["luas"];
+$sph = $_POST["sph"];
+$bjr = $_POST["bjr"];
+$br_kiri = $_POST["br_kiri"];
+$jjg_kiri = $_POST["jjg_kiri"];
+$jmlh_jjg_kiri = $_POST["jmlh_jjg_kiri"];
+$jmlh_pk_kiri = $_POST["jmlh_pk_kiri"];
+$br_kanan = $_POST["br_kanan"];
+$jjg_kanan = $_POST["jjg_kanan"];
+$jmlh_jjg_kanan = $_POST["jmlh_jjg_kanan"];
+$jmlh_pk_kanan = $_POST["jmlh_pk_kanan"];
+$arah = $_POST["arah"];
+$jmlhPk = $_POST["jmlhPk"];
+$jmlhJjg = $_POST["jmlhJjg"];
+$akp = $_POST["akp"];
+$taksasi = $_POST["taksasi"];
+$lat = $_POST["lat"];
+$lon = $_POST["lon"];
+$lat_awal = $_POST["lat_awal"];
+$lon_awal = $_POST["lon_awal"];
+
+$query = mysqli_query($conn, "INSERT INTO db_panen_tbs VALUES(0,'".$user_id."','".$waktu_mulai."','".$waktu_selesai."','".$lokasi_kerja."','".$name."','".$afdeling."','".$blok."','".$tahun_tanam."','".$luas."','".$sph."','".$bjr."','".$br_kiri."','".$jjg_kiri."','".$jmlh_jjg_kiri."','".$jmlh_pk_kiri."','".$br_kanan."','".$jjg_kanan."','".$jmlh_jjg_kanan."','".$jmlh_pk_kanan."','".$arah."','".$jmlhPk."','".$jmlhJjg."','".$akp."','".$taksasi."','".$lat."','".$lon."','".$lat_awal."','".$lon_awal."')"); ?>

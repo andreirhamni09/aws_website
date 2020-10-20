@@ -1,0 +1,37 @@
+<?php $conn = mysqli_connect("localhost", "srsssmsc_frkh", "wasd@@asdasd" , "srsssmsc_mp") or die (mysqli_error());
+
+$id = $_POST["id"];
+$user_id = $_POST["user_id"];
+$name = $_POST["name"];
+$tanggal = $_POST["tanggal"];
+$jenis_panen = $_POST["jenis_panen"];
+$tbs_kirim = $_POST["tbs_kirim"];
+$tbs_dibayar = $_POST["tbs_dibayar"];
+$estate = $_POST["estate"];
+$id_estate = $_POST["id_estate"];
+$afdeling = $_POST["afdeling"];
+$id_afdeling = $_POST["id_afdeling"];
+$tahun_tanam = $_POST["tahun_tanam"];
+$id_tt = $_POST["id_tt"];
+$blok = $_POST["blok"];
+$id_blok = $_POST["id_blok"];
+$ancak = $_POST["ancak"];
+$id_ancak = $_POST["id_ancak"];
+$tph = $_POST["tph"];
+$id_tph = $_POST["id_tph"];
+$list_pemanen = $_POST["list_pemanen"];
+$list_idpemanen = $_POST["list_idpemanen"];
+$tbs = $_POST["tbs"];
+$tbs_masak = $_POST["tbs_masak"];
+$tbs_lewatmasak = $_POST["tbs_lewatmasak"];
+$tbs_mentah = $_POST["tbs_mentah"];
+$tks = $_POST["tks"];
+$vcut = $_POST["vcut"];
+$tikus = $_POST["tikus"];
+$tangkai_panjang = $_POST["tangkai_panjang"];
+$abnormal = $_POST["abnormal"];
+$latitude = $_POST["latitude"];
+$longitude = $_POST["longitude"];
+$foto = $_POST["foto"];
+
+$query = mysqli_query($conn, "INSERT INTO mp_panen_tbs VALUES(0,'".$user_id."','".$name."','".$tanggal."','".$jenis_panen."','".$tbs_kirim."','".$tbs_dibayar."','".$estate."','".$id_estate."','".$afdeling."','".$id_afdeling."','".$tahun_tanam."','".$id_tt."','".$blok."','".$id_blok."','".$ancak."','".$id_ancak."','".$tph."','".$id_tph."','".$list_pemanen."','".$list_idpemanen."','".$tbs."','".$tbs_masak."','".$tbs_lewatmasak."','".$tbs_mentah."','".$tks."','".$vcut."','".$tikus."','".$tangkai_panjang."','".$abnormal."','".$latitude."','".$longitude."','".$foto."')"); ?>

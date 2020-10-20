@@ -2,7 +2,7 @@
     <div class="float-right d-none d-sm-block">
         <b></b>
     </div>
-    <strong><a href="#">MobilePro</a>.</strong> 2020
+    <strong><a href="#">MobilePro</a>.</strong> Mana kutahu
 </footer>
 </div>
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>

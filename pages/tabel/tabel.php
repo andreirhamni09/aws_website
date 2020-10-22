@@ -31,8 +31,7 @@ if (empty($_GET['tanggalAwal']) && empty($_GET['tanggalAkhir'])) {
     $result_tA =  mysqli_query($tkon, $tanggalBesar);
     while ($row_ta = mysqli_fetch_array($result_tA)) {
         $tanggalAkhir = $row_ta['tanggal'];
-    }    
-
+    }
 } else {
     $tanggalAwal = $_GET['tanggalAwal'];
     $tanggalAkhir = $_GET['tanggalAkhir'];
@@ -40,11 +39,11 @@ if (empty($_GET['tanggalAwal']) && empty($_GET['tanggalAkhir'])) {
 }
 
 if ($tanggalAwal == $tanggalAkhir) {
-    $nameTabel = '('.$tanggalAwal.')';
+    $nameTabel = '(' . $tanggalAwal . ')';
 } else if ($tanggalAwal > $tanggalAkhir) {
-    $nameTabel = '('.$tanggalAkhir.')' . ' - ' .'('.$tanggalAwal.')';
+    $nameTabel = '(' . $tanggalAkhir . ')' . ' - ' . '(' . $tanggalAwal . ')';
 } else {
-    $nameTabel = '('.$tanggalAwal.')' . ' - ' .'('. $tanggalAkhir.')';
+    $nameTabel = '(' . $tanggalAwal . ')' . ' - ' . '(' . $tanggalAkhir . ')';
 }
 
 
@@ -104,13 +103,21 @@ $result = mysqli_query($tkon, $tsql);
             </ul>
         </nav>
         <aside class="main-sidebar sidebar-light-primary elevation-4">
-            <a href="#" class="brand-link">
+            <a href="../../index" class="brand-link">
                 <img src="../../layout/dist/img/CBI-logo.png" alt="Covid Tracker" class="brand-image img-circle elevation-3" style="opacity: .8">
                 <span class="brand-text font-weight-light">MobilePro</span>
             </a>
             <div class="sidebar">
                 <nav class="mt-2">
                     <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                        <li class="nav-item">
+                            <a href="../dashboard/dashboard" class="nav-link">
+                                <i class="nav-icon fas fa-tachometer-alt"></i>
+                                <p>
+                                    Dashboard
+                                </p>
+                            </a>
+                        </li>
                         <li class="nav-item">
                             <a href="../chart/charts" class="nav-link">
                                 <i class="nav-icon fas fa-fw fa-chart-area"></i>
@@ -268,16 +275,16 @@ $result = mysqli_query($tkon, $tsql);
                 <!--container-->
 
             </section><!-- /.content -->
-        </div>                                
-        
+        </div>
+
     </div>
-    
+
     <footer class="main-footer">
         <div class="float-right d-none d-sm-block">
             <b></b>
         </div>
         <strong><a href="#">AWS</a>.</strong> GG l
-    </footer>   
+    </footer>
     <!-- ./wrapper -->
 
     <!-- jQuery -->

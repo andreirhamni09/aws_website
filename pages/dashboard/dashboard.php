@@ -20,6 +20,7 @@ include_once '../layout/header.php';
   <section class="content">
     <div class="container-fluid">
       <div class="row">
+
         <!--//Suhu Ruangan-->
         <div class="col-md-3">
           <div class="card card-primary">
@@ -29,10 +30,10 @@ include_once '../layout/header.php';
             <div class="card-body">
               <div class="row no-gutters align-items-center">
                 <div class="col mr-2">
-                  <div class="h5 mb-0 font-weight-bold text-gray-800" id="suhu">31.2 ºC</div>
+                  <div class="h5 mb-0 font-weight-bold text-gray-800" id="temp_in1">31.2 ºC</div>
                 </div>
                 <div class="col-auto">
-                  <i id="" class="fas fa-temperature-high fa-2x "></i>
+                  <i id="s_temp_in1" class="fas fa-thermometer-three-quarters fa-2x"></i>
                 </div>
               </div>
             </div>
@@ -49,10 +50,10 @@ include_once '../layout/header.php';
             <div class="card-body">
               <div class="row no-gutters align-items-center">
                 <div class="col mr-2">
-                  <div class="h5 mb-0 font-weight-bold text-gray-800" id="suhu">31.2 ºC</div>
+                  <div class="h5 mb-0 font-weight-bold text-gray-800" id="hum_in1">31.2 ºC</div>
                 </div>
                 <div class="col-auto">
-                  <i id="" class="fas fa-temperature-high fa-2x "></i>
+                  <i id="s_hum_in1" class="fas fa-thermometer-three-quarters fa-2x"></i>
                 </div>
               </div>
             </div>
@@ -69,10 +70,10 @@ include_once '../layout/header.php';
             <div class="card-body">
               <div class="row no-gutters align-items-center">
                 <div class="col mr-2">
-                  <div class="h5 mb-0 font-weight-bold text-gray-800" id="suhu">31.2 ºC</div>
+                  <div class="h5 mb-0 font-weight-bold text-gray-800" id="temp_out1">31.2 ºC</div>
                 </div>
                 <div class="col-auto">
-                  <i id="" class="fas fa-temperature-high fa-2x "></i>
+                  <i id="s_temp_out1" class="fas fa-thermometer-three-quarters fa-2x"></i>
                 </div>
               </div>
             </div>
@@ -89,10 +90,10 @@ include_once '../layout/header.php';
             <div class="card-body">
               <div class="row no-gutters align-items-center">
                 <div class="col mr-2">
-                  <div class="h5 mb-0 font-weight-bold text-gray-800" id="suhu">31.2 ºC</div>
+                  <div class="h5 mb-0 font-weight-bold text-gray-800" id="hum_out1">31.2 ºC</div>
                 </div>
                 <div class="col-auto">
-                  <i id="" class="fas fa-temperature-high fa-2x "></i>
+                  <i id="s_hum_out1" class="fas fa-thermometer-three-quarters fa-2x"></i>
                 </div>
               </div>
             </div>
@@ -109,10 +110,10 @@ include_once '../layout/header.php';
             <div class="card-body">
               <div class="row no-gutters align-items-center">
                 <div class="col mr-2">
-                  <div class="h5 mb-0 font-weight-bold text-gray-800" id="suhu">31.2 ºC</div>
+                  <div class="h5 mb-0 font-weight-bold text-gray-800" id="rain_rn1">31.2 ºC</div>
                 </div>
                 <div class="col-auto">
-                  <i id="" class="fas fa-temperature-high fa-2x "></i>
+                  <i id="s_rain_rn1" class="fas fa-cloud-rain fa-2x "></i>
                 </div>
               </div>
             </div>
@@ -129,10 +130,10 @@ include_once '../layout/header.php';
             <div class="card-body">
               <div class="row no-gutters align-items-center">
                 <div class="col mr-2">
-                  <div class="h5 mb-0 font-weight-bold text-gray-800" id="suhu">31.2 ºC</div>
+                  <div class="h5 mb-0 font-weight-bold text-gray-800" id="rain_d1">31.2 ºC</div>
                 </div>
                 <div class="col-auto">
-                  <i id="" class="fas fa-temperature-high fa-2x "></i>
+                  <i id="s_rain_d1" class="fas fa-cloud-rain fa-2x "></i>
                 </div>
               </div>
             </div>
@@ -149,10 +150,10 @@ include_once '../layout/header.php';
             <div class="card-body">
               <div class="row no-gutters align-items-center">
                 <div class="col mr-2">
-                  <div class="h5 mb-0 font-weight-bold text-gray-800" id="suhu">31.2 ºC</div>
+                  <div class="h5 mb-0 font-weight-bold text-gray-800" id="rain_m1">31.2 ºC</div>
                 </div>
                 <div class="col-auto">
-                  <i id="" class="fas fa-temperature-high fa-2x "></i>
+                  <i id="s_rain_m1" class="fas fa-cloud-rain fa-2x"></i>
                 </div>
               </div>
             </div>
@@ -169,10 +170,10 @@ include_once '../layout/header.php';
             <div class="card-body">
               <div class="row no-gutters align-items-center">
                 <div class="col mr-2">
-                  <div class="h5 mb-0 font-weight-bold text-gray-800" id="suhu">31.2 ºC</div>
+                  <div class="h5 mb-0 font-weight-bold text-gray-800" id="rain_y1">31.2 ºC</div>
                 </div>
                 <div class="col-auto">
-                  <i id="" class="fas fa-temperature-high fa-2x "></i>
+                  <i id="s_rain_y1" class="fas fa-cloud-rain fa-2x"></i>
                 </div>
               </div>
             </div>
@@ -189,10 +190,10 @@ include_once '../layout/header.php';
             <div class="card-body">
               <div class="row no-gutters align-items-center">
                 <div class="col mr-2">
-                  <div class="h5 mb-0 font-weight-bold text-gray-800" id="suhu">31.2 ºC</div>
+                  <div class="h5 mb-0 font-weight-bold text-gray-800" id="et_d1">31.2 ºC</div>
                 </div>
                 <div class="col-auto">
-                  <i id="" class="fas fa-temperature-high fa-2x "></i>
+                  <i id="s_et_d1" class="fas fa-water fa-2x"></i>
                 </div>
               </div>
             </div>
@@ -209,10 +210,10 @@ include_once '../layout/header.php';
             <div class="card-body">
               <div class="row no-gutters align-items-center">
                 <div class="col mr-2">
-                  <div class="h5 mb-0 font-weight-bold text-gray-800" id="suhu">31.2 ºC</div>
+                  <div class="h5 mb-0 font-weight-bold text-gray-800" id="et_m1">31.2 ºC</div>
                 </div>
                 <div class="col-auto">
-                  <i id="" class="fas fa-temperature-high fa-2x "></i>
+                  <i id="s_et_m1" class="fas fa-water fa-2x"></i>
                 </div>
               </div>
             </div>
@@ -229,10 +230,10 @@ include_once '../layout/header.php';
             <div class="card-body">
               <div class="row no-gutters align-items-center">
                 <div class="col mr-2">
-                  <div class="h5 mb-0 font-weight-bold text-gray-800" id="suhu">31.2 ºC</div>
+                  <div class="h5 mb-0 font-weight-bold text-gray-800" id="uv_1">31.2 ºC</div>
                 </div>
                 <div class="col-auto">
-                  <i id="" class="fas fa-temperature-high fa-2x "></i>
+                  <i id="s_uv_1" class="far fa-sun fa-2x "></i>
                 </div>
               </div>
             </div>
@@ -249,10 +250,10 @@ include_once '../layout/header.php';
             <div class="card-body">
               <div class="row no-gutters align-items-center">
                 <div class="col mr-2">
-                  <div class="h5 mb-0 font-weight-bold text-gray-800" id="suhu">31.2 ºC</div>
+                  <div class="h5 mb-0 font-weight-bold text-gray-800" id="radiasi_1">31.2 ºC</div>
                 </div>
                 <div class="col-auto">
-                  <i id="" class="fas fa-temperature-high fa-2x "></i>
+                  <i id="s_radiasi_1" class="fas fa-sun fa-2x" style="color: rgb(255, 153, 0);"></i>
                 </div>
               </div>
             </div>
@@ -296,10 +297,10 @@ include_once '../layout/header.php';
             <div class="card-body">
               <div class="row no-gutters align-items-center">
                 <div class="col mr-2">
-                  <div class="h5 mb-0 font-weight-bold text-gray-800" id="temp_in2">Belum Terkoneksi ºC</div>
+                  <div class="h5 mb-0 font-weight-bold text-gray-800" id="temp_in2">Belum Terkoneksi</div>
                 </div>
                 <div class="col-auto">
-                  <i id="s_temp_in2" class="fas fa-temperature-high fa-2x "></i>
+                  <i id="s_temp_in2" class="fas fa-thermometer-three-quarters fa-2x"></i>
                 </div>
               </div>
             </div>
@@ -316,10 +317,10 @@ include_once '../layout/header.php';
             <div class="card-body">
               <div class="row no-gutters align-items-center">
                 <div class="col mr-2">
-                  <div class="h5 mb-0 font-weight-bold text-gray-800" id="hum_in2">Belum Terkoneksi ºC</div>
+                  <div class="h5 mb-0 font-weight-bold text-gray-800" id="hum_in2">Belum Terkoneksi</div>
                 </div>
                 <div class="col-auto">
-                  <i id="s_hum_in2" class="fas fa-temperature-high fa-2x "></i>
+                  <i id="s_hum_in2" class="fas fa-thermometer-three-quarters fa-2x"></i>
                 </div>
               </div>
             </div>
@@ -336,10 +337,10 @@ include_once '../layout/header.php';
             <div class="card-body">
               <div class="row no-gutters align-items-center">
                 <div class="col mr-2">
-                  <div class="h5 mb-0 font-weight-bold text-gray-800" id="temp_out2">Belum Terkoneksi ºC</div>
+                  <div class="h5 mb-0 font-weight-bold text-gray-800" id="temp_out2">Belum Terkoneksi</div>
                 </div>
                 <div class="col-auto">
-                  <i id="s_temp_out2" class="fas fa-temperature-high fa-2x "></i>
+                  <i id="s_temp_out2" class="fas fa-thermometer-three-quarters fa-2x"></i>
                 </div>
               </div>
             </div>
@@ -347,7 +348,7 @@ include_once '../layout/header.php';
         </div>
         <!--Suhu Udara//-->
 
-        <!--//Kelembaban Udara-->
+        <!--//Kelembaban Udara//-->
         <div class="col-md-3">
           <div class="card card-primary">
             <div class="card-header">
@@ -356,10 +357,10 @@ include_once '../layout/header.php';
             <div class="card-body">
               <div class="row no-gutters align-items-center">
                 <div class="col mr-2">
-                  <div class="h5 mb-0 font-weight-bold text-gray-800" id="hum_out2">Belum Terkoneksi ºC</div>
+                  <div class="h5 mb-0 font-weight-bold text-gray-800" id="hum_out2">Belum Terkoneksi</div>
                 </div>
                 <div class="col-auto">
-                  <i id="s_hum_out2" class="fas fa-temperature-high fa-2x "></i>
+                  <i id="s_hum_out2" class="fas fa-thermometer-three-quarters fa-2x"></i>
                 </div>
               </div>
             </div>
@@ -376,10 +377,10 @@ include_once '../layout/header.php';
             <div class="card-body">
               <div class="row no-gutters align-items-center">
                 <div class="col mr-2">
-                  <div class="h5 mb-0 font-weight-bold text-gray-800" id="rain_rn2">Belum Terkoneksi ºC</div>
+                  <div class="h5 mb-0 font-weight-bold text-gray-800" id="rain_rn2">Belum Terkoneksi</div>
                 </div>
                 <div class="col-auto">
-                  <i id="s_rain_rn2" class="fas fa-temperature-high fa-2x "></i>
+                  <i id="s_rain_rn2" class="fas fa-cloud-rain fa-2x "></i>
                 </div>
               </div>
             </div>
@@ -396,10 +397,10 @@ include_once '../layout/header.php';
             <div class="card-body">
               <div class="row no-gutters align-items-center">
                 <div class="col mr-2">
-                  <div class="h5 mb-0 font-weight-bold text-gray-800" id="rain_d2">Belum Terkoneksi ºC</div>
+                  <div class="h5 mb-0 font-weight-bold text-gray-800" id="rain_d2">Belum Terkoneksi</div>
                 </div>
                 <div class="col-auto">
-                  <i id="s_rain_d2" class="fas fa-temperature-high fa-2x "></i>
+                  <i id="s_rain_d2" class="fas fa-cloud-rain fa-2x "></i>
                 </div>
               </div>
             </div>
@@ -416,10 +417,10 @@ include_once '../layout/header.php';
             <div class="card-body">
               <div class="row no-gutters align-items-center">
                 <div class="col mr-2">
-                  <div class="h5 mb-0 font-weight-bold text-gray-800" id="rain_m2">Belum Terkoneksi ºC</div>
+                  <div class="h5 mb-0 font-weight-bold text-gray-800" id="rain_m2">Belum Terkoneksi</div>
                 </div>
                 <div class="col-auto">
-                  <i id="s_rain_m2" class="fas fa-temperature-high fa-2x "></i>
+                  <i id="s_rain_m2" class="fas fa-cloud-rain fa-2x"></i>
                 </div>
               </div>
             </div>
@@ -436,10 +437,10 @@ include_once '../layout/header.php';
             <div class="card-body">
               <div class="row no-gutters align-items-center">
                 <div class="col mr-2">
-                  <div class="h5 mb-0 font-weight-bold text-gray-800" id="rain_y2">Belum Terkoneksi ºC</div>
+                  <div class="h5 mb-0 font-weight-bold text-gray-800" id="rain_y2">Belum Terkoneksi</div>
                 </div>
                 <div class="col-auto">
-                  <i id="s_rain_y2" class="fas fa-temperature-high fa-2x "></i>
+                  <i id="s_rain_y2" class="fas fa-cloud-rain fa-2x"></i>
                 </div>
               </div>
             </div>
@@ -456,10 +457,10 @@ include_once '../layout/header.php';
             <div class="card-body">
               <div class="row no-gutters align-items-center">
                 <div class="col mr-2">
-                  <div class="h5 mb-0 font-weight-bold text-gray-800" id="et_d2">Belum Terkoneksi ºC</div>
+                  <div class="h5 mb-0 font-weight-bold text-gray-800" id="et_d2">Belum Terkoneksi</div>
                 </div>
                 <div class="col-auto">
-                  <i id="s_et_d2" class="fas fa-temperature-high fa-2x "></i>
+                  <i id="s_et_d2" class="fas fa-water fa-2x"></i>
                 </div>
               </div>
             </div>
@@ -467,7 +468,7 @@ include_once '../layout/header.php';
         </div>
         <!--Evapotranspirasi Hari Ini//-->
 
-        <!--//Evapotranspirasi Bulan Ini-->
+        <!--//Evapotranspirasi Hari Ini-->
         <div class="col-md-3">
           <div class="card card-primary">
             <div class="card-header">
@@ -476,16 +477,16 @@ include_once '../layout/header.php';
             <div class="card-body">
               <div class="row no-gutters align-items-center">
                 <div class="col mr-2">
-                  <div class="h5 mb-0 font-weight-bold text-gray-800" id="et_m2">Belum Terkoneksi ºC</div>
+                  <div class="h5 mb-0 font-weight-bold text-gray-800" id="et_m2">Belum Terkoneksi</div>
                 </div>
                 <div class="col-auto">
-                  <i id="s_et_m2" class="fas fa-temperature-high fa-2x "></i>
+                  <i id="s_et_m2" class="fas fa-water fa-2x"></i>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <!--Evapotranspirasi Bulan Ini//-->        
+        <!--Evapotranspirasi Hari Ini//-->        
 
         <!--//Index Ultraviolet-->
         <div class="col-md-3">
@@ -496,10 +497,10 @@ include_once '../layout/header.php';
             <div class="card-body">
               <div class="row no-gutters align-items-center">
                 <div class="col mr-2">
-                  <div class="h5 mb-0 font-weight-bold text-gray-800" id="uv2">Belum Terkoneksi ºC</div>
+                  <div class="h5 mb-0 font-weight-bold text-gray-800" id="uv_2">Belum Terkoneksi</div>
                 </div>
                 <div class="col-auto">
-                  <i id="s_uv2" class="fas fa-temperature-high fa-2x "></i>
+                  <i id="s_uv_2" class="far fa-sun fa-2x "></i>
                 </div>
               </div>
             </div>
@@ -516,10 +517,10 @@ include_once '../layout/header.php';
             <div class="card-body">
               <div class="row no-gutters align-items-center">
                 <div class="col mr-2">
-                  <div class="h5 mb-0 font-weight-bold text-gray-800" id="radiasi2">Belum Terkoneksi ºC</div>
+                  <div class="h5 mb-0 font-weight-bold text-gray-800" id="radiasi_2">Belum Terkoneksi</div>
                 </div>
                 <div class="col-auto">
-                  <i id="s_radiasi2" class="fas fa-temperature-high fa-2x "></i>
+                  <i id="s_radiasi_2" class="fas fa-sun fa-2x" style="color: rgb(255, 153, 0);"></i>
                 </div>
               </div>
             </div>

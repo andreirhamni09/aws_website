@@ -266,11 +266,10 @@ include_once '../layout/header.php';
   </section>
   <!-- Main content AWS 1 //-->
 
+  <!--Coba Tambah Koment -->
 
-
-  
-   <!-- //Content Header AWS 2-->
-   <section class="content-header">
+  <!-- //Content Header AWS 2-->
+  <section class="content-header">
     <div class="content-fluid">
       <div class="row mb-2 mt-5">
         <div class="col-sm-6">

@@ -80,7 +80,7 @@ include_once '../layout/header.php';
         </div>
         <!--Suhu Udara//-->
 
-        <!--//Kelembaban Udara-->
+        <!--//Kelembaban Udara//-->
         <div class="col-md-3">
           <div class="card card-primary">
             <div class="card-header">
